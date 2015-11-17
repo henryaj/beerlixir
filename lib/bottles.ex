@@ -1,7 +1,7 @@
 defmodule Bottles do
-  def sing do
-    IO.puts "lalalalal"
+  def sing(num) do
+    IO.puts num
   end
 end
 
-Bottles.sing
+Bottles.sing(99)
